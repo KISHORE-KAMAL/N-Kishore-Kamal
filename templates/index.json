@@ -1,61 +1,31 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "image_behavior": "none",
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
+        "collection": "all",
+        "products_to_show": 8,
         "title": "Featured products",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -63,13 +33,145 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 44,
         "padding_bottom": 36
+      }
+    },
+    "custom_hero_banner_KYKqCH": {
+      "type": "custom-hero-banner",
+      "blocks": {
+        "image_44fRqy": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Frame.png"
+          }
+        },
+        "image_with_text_YHGbEE": {
+          "type": "image_with_text",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Frame_15.webp",
+            "mobile_image": "shopify://shop_images/Frame_16.webp",
+            "desktop_heading": "<p>The Gift Guide</p>",
+            "desktop_description": "Discover Joy: Your Ultimate Holiday Gift Destination. Explore our curated selection and find the perfect gifts to delight your loved ones this holiday season.",
+            "mobile_heading": "<p>The Gift Guide</p>",
+            "mobile_description": "Discover Joy: Your Ultimate Holiday Gift Destination.",
+            "button_text": "Shop Now",
+            "button_url": "#",
+            "show_button_on_image_mobile": true
+          }
+        },
+        "annoucement_yctW3U": {
+          "type": "annoucement",
+          "settings": {
+            "annoucement_color_scheme": "scheme-2",
+            "annoucement_desktop_heading": "<p>SUSTAINABLE, ETHICALLY MADE CLOTHES IN SIZES XXS TO 6XL</p>",
+            "annoucement_mobile_heading": "<p>SUSTAINABLE, ETHICALLY MADE ACTIVEWEAR</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_44fRqy",
+        "image_with_text_YHGbEE",
+        "annoucement_yctW3U"
+      ],
+      "name": "t:sections.custom-hero-banner.presets.name",
+      "settings": {
+        "color_scheme": "schema_1",
+        "section_width": "full_width",
+        "padding_top_desktop": 0,
+        "padding_bottom_desktop": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "custom_hotspot_kpmzkL": {
+      "type": "custom-hotspot",
+      "blocks": {
+        "hotspot_pcNWDN": {
+          "type": "hotspot",
+          "settings": {
+            "image": "shopify://shop_images/black-bag-over-the-shoulder_925x_4cae5708-5e9e-4e7e-96ec-9649f0c20cd8.webp",
+            "position_top": 59,
+            "position_left": 64,
+            "selected_product": "black-leather-bag"
+          }
+        },
+        "hotspot_zVHRaE": {
+          "type": "hotspot",
+          "settings": {
+            "image": "shopify://shop_images/man-adjusts-blue-tuxedo-bowtie_925x_55a49e12-d54b-488e-b7a0-ea4c201eb01f.webp",
+            "position_top": 54,
+            "position_left": 88,
+            "selected_product": "blue-silk-tuxedo"
+          }
+        },
+        "hotspot_yW8XQC": {
+          "type": "hotspot",
+          "settings": {
+            "image": "shopify://shop_images/red-plaid-shirt_925x_70e9e5a8-8fc5-4d60-9a9a-cc2e0dd57cc9.webp",
+            "position_top": 24,
+            "position_left": 67,
+            "selected_product": "chequered-red-shirt"
+          }
+        },
+        "hotspot_LLXRnL": {
+          "type": "hotspot",
+          "settings": {
+            "image": "shopify://shop_images/leather-jacket-and-tea_925x_2490cde1-7e61-4151-9a65-de8a763bc701.webp",
+            "position_top": 21,
+            "position_left": 74,
+            "selected_product": "classic-leather-jacket"
+          }
+        },
+        "hotspot_bwp4BL": {
+          "type": "hotspot",
+          "settings": {
+            "image": "shopify://shop_images/casual-fashion-woman_925x_56b56608-f207-45c1-b677-bb5aa26c1c7a.webp",
+            "position_top": 28,
+            "position_left": 54,
+            "selected_product": "classic-varsity-top"
+          }
+        },
+        "hotspot_4xgUhL": {
+          "type": "hotspot",
+          "settings": {
+            "image": "shopify://shop_images/young-female-models-denim_925x_44c2cf9e-4030-4347-9d4a-f0e4a1479b4a.webp",
+            "position_top": 42,
+            "position_left": 78,
+            "selected_product": "dark-denim-top"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_pcNWDN",
+        "hotspot_zVHRaE",
+        "hotspot_yW8XQC",
+        "hotspot_LLXRnL",
+        "hotspot_bwp4BL",
+        "hotspot_4xgUhL"
+      ],
+      "name": "t:sections.custom-hotspot.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "heading": "Tisso vison in the wild",
+        "no_of_items_per_mobile": "2",
+        "items_per_desktop": 3,
+        "desktop_gap": 20,
+        "mobile_gap": 4,
+        "add_extra_product": true,
+        "matched_variants": "M|Black",
+        "extra_product": "dark-winter-jacket",
+        "padding_top_desktop": 54,
+        "padding_bottom_desktop": 54,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "custom_hero_banner_KYKqCH",
+    "custom_hotspot_kpmzkL"
   ]
 }
